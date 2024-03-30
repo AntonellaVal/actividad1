@@ -1,0 +1,78 @@
+.estilo_titulo{
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+}
+
+.estilo_texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.estilo_lista {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.texto {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imagen {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.imagen img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.enlace-imagen {
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    transform: translateY(-50%);
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.imagen-gato {
+    width: 450px;
+    float: left;
+    margin-right: 15px;
+}
+
+.imagen-perro {
+    width: 450px;
+    float: left;
+    margin-right: 15px;
+}
+
+.txt-box {
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 700px;
+    transform: translateY(-50%);
+
+}
+
+.enlace-imagen-inicio{
+    position: absolute;
+    top: 50%;
+    left: 460px;
+    transform: translateY(-50%);
+}
